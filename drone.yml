@@ -12,6 +12,8 @@ steps:
     - sh 
   - name: publish
     image: lexarity/devops-challange
+    commands:
+    - docker-spring-boot.jar
     settings:
       username:
         from_secret: docker_username
