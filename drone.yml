@@ -15,7 +15,8 @@ steps:
         from_secret: docker_password
       repo: lexarity/devops-challange
       auto_tag: true
-      auto_tag_suffix: drone-build
+      auto_tag_suffix: linux-amd64
+      dockerfile: docker/Dockerfile.linux.amd64
 
 
 
