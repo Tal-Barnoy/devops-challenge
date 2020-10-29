@@ -13,7 +13,7 @@ steps:
         from_secret: docker_username
       password:
         from_secret: docker_password
-      repo: lLexarity/devops-challange
+      repo: lexarity/devops-challange
       auto_tag: true
       auto_tag_suffix: drone-build
 
