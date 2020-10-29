@@ -4,6 +4,7 @@ name: docker-boot
 
 version: "3.8"
 
+
 steps:
   - name: publish
     image: devops-challange/docker_spring_web
