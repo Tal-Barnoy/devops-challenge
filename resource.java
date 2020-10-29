@@ -12,11 +12,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static challange.dockerspringboot.Constants.TABLE_NAME;
-import static challange.dockerspringboot.Constants.getDynamoDB;
+
+import static challange.dockerspringboot.func_res.getDynamoDB;
 
 
 @RestController
-@RequestMapping("/yo")
+@RequestMapping("/secret")
 public class resource {
 
     @GetMapping
