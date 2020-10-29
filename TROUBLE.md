@@ -10,10 +10,9 @@ through java so i've had to learn that aswell. and after i've learned how to bui
 of the challange the docker container didn't work at all.
 
 drone was really difficult for me because i couldn't really do much about it since there wasn't that much data online
-about my problem which is that the web service i've made couldn't be  unmarshaled by drone.io so i couldn't have fixed 
-it in the 72 hours i've had.
+about my problem.
 
 github was a fairly new experience for me - pretty much the first time i've had to use it and it was a bit difficult
 understanding what it's meaning, how to commit and everything around it and again with drone.
 
-overall it was a very difficcult and challanging experience but also a fun and learning experience.
+overall it was a very difficult and challanging experience but also a fun and learning experience which i mostly enjoyed. it really has given me a whole new experience and view of something i haven't seen before.
