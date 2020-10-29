@@ -4,9 +4,22 @@ name: docker-boot
 
 version: "3.8"
 
+steps:
+  - name: publish
+    image: docker-boot
+    settings:
+      username:
+        from_secret: docker_username
+      password:
+        from_secret: docker_password
+      repo: Lexarity/devops-challange
+      auto_tag: true
+      auto_tag_suffix: drone-build
+
 services:
   web:
     build: .
     ports:
       - "5000:5000"
+
 
