@@ -16,10 +16,5 @@ steps:
       auto_tag: true
       auto_tag_suffix: drone-build
 
-services:
-  web:
-    build: .
-    ports:
-      - "5000:5000"
 
 
