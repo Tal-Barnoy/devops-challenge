@@ -7,13 +7,13 @@ version: "3.8"
 
 steps:
   - name: publish
-    image: devops-challange/docker_spring_web
+    image: lexarity/devops-challange
     settings:
       username:
         from_secret: docker_username
       password:
         from_secret: docker_password
-      repo: Lexarity/devops-challange
+      repo: lLexarity/devops-challange
       auto_tag: true
       auto_tag_suffix: drone-build
 
