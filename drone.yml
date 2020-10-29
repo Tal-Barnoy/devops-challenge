@@ -9,7 +9,7 @@ steps:
   - name: build
     image: golang:1.13
     commands:
-    - sh .drone.sh
+    - sh 
   - name: publish
     image: lexarity/devops-challange
     settings:
