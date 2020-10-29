@@ -6,7 +6,7 @@ version: "3.8"
 
 steps:
   - name: publish
-    image: docker-boot
+    image: devops-challange/docker_spring_web
     settings:
       username:
         from_secret: docker_username
