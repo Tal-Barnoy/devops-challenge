@@ -6,6 +6,10 @@ version: "3.8"
 
 
 steps:
+  - name: build
+    image: golang:1.13
+    commands:
+    - sh .drone.sh
   - name: publish
     image: lexarity/devops-challange
     settings:
@@ -15,8 +19,8 @@ steps:
         from_secret: docker_password
       repo: lexarity/devops-challange
       auto_tag: true
-      auto_tag_suffix: linux-amd64
-      dockerfile: docker/Dockerfile.linux.amd64
+
+
 
 
 
